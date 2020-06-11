@@ -43,7 +43,6 @@ def gen_file(names_array, extensions, size_range, count):
         out_file.write(data)
         out_file.close
 
-
 '''
 #===== Example =====
 
@@ -52,7 +51,7 @@ names_array = [['blue', 'red', 'green', 'yellow'],
 
 file_types = ['txt', 'docx', 'odt', 'doc', 'png', 'jpg', 'mp3', 'mp4']
 
-file_size = 1000000
+file_size = [1000000, 1000001]
 
 file_count = 5
 
@@ -60,5 +59,4 @@ file_count = 5
 gen_file(names_array, file_types, file_size, file_count)
 
 #===== Enjoy! =====
-
 '''
